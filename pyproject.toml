@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "intelligent-surveillance-h002"
+version = "0.1.0"
+description = ""
+authors = ["Ben-Jasper Kettlitz <b-jk@gmx.net>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.12"
+numpy = "^1.26.0"
+torch = "^2.1.0"
+pandas = "^2.1.1"
+keras = "^2.14.0"
+torchvision = "^0.16.0"
+tqdm = "^4.66.1"
+matplotlib = "^3.8.0"
+nbconvert = "^7.9.2"
+tensorflow = "^2.14.0"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.25.2"
+notebook = "^7.0.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
